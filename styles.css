@@ -192,3 +192,11 @@ footer {
         margin: 3rem 10% 0 10%;
     }
 }
+
+@media (max-width: 771px) {
+    .selected-projects {
+        display: grid;
+        grid-template: auto auto / 100%;
+        gap: 2rem;
+    }   
+}
